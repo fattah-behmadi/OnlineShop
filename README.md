@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 *********
 ## Available Scripts
-
+2022-07-31 July
 In the project directory, you can run:
 
 ### `npm start`
