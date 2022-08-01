@@ -17,7 +17,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch": "npx tailwindcss -i ./src/assets/sass/tailwind.css -o ./src/assets/sass/tailwind-min.css --watch"
-
   },
   "eslintConfig": {
     "extends": [

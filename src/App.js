@@ -1,8 +1,10 @@
-function App() {
-  return <div className="text-red-500">
-    
+import React from 'react';
+import Home from 'components/pages/Home';
 
-<button type="" className="bg-orange-500 text-white py-4 px-8 rounded-md">click me</button>
+
+function App() {
+  return <div className="font-vazir ">
+    <Home />
 
   </div>;
 }
