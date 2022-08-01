@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from 'components/navbar/Navbar';
+import TheNavbar from 'components/template/TheNavbar';
 
 const Home = () => {
     return (<div>
-        <Navbar />
+        <TheNavbar />
     </div>);
 }
 
