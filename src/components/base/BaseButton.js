@@ -1,7 +1,7 @@
 import React from "react";
 
 const BaseButton = ({ title, type = "default", className, children }) => {
-  
+
   const bgButton = {
     success: " bg-green-700 text-white ",
     danger: " bg-red-500 text-white ",
