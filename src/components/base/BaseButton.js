@@ -6,7 +6,7 @@ const BaseButton = ({ title, type = "default", className, children }) => {
     success: " bg-green-700 text-white ",
     danger: " bg-red-500 text-white ",
     warning: " bg-yellow-500 text-white ",
-    default: " bg-gray-200 text-gray-600 ",
+    default: " bg-gray-300 text-gray-600 ",
   };
   const color = bgButton[type];
 
