@@ -1,21 +1,26 @@
 import React from 'react';
 import { FaGlobeAmericas } from 'react-icons/fa'
 import { FaMoon } from 'react-icons/fa'
+import { useTranslation } from "react-i18next";
 
 
 const BaseLanguage = () => {
+    const { i18n } = useTranslation();
+
+    const changeLanguageHandler = (e) => {
+        const languageValue = e.target.value
+        i18n.changeLanguage(languageValue);
+    }
     return (
 
         <div className=' flex cursor-pointer ml-[400px] mr-4 items-center '>
             <FaMoon size='1.5rem' className='ml-8' />
             <FaGlobeAmericas size="1.5rem" />
-            <p className=' text-black font-bold  m-1 ' >EN</p>
-
+            <select className="bg-[#eceaea] border-none text-gray-500 font-bold border-none	" onChange={changeLanguageHandler} >
+                <option value="en" >English - En</option>
+                <option value="fa" >فارسی - Fa</option>
+            </select>
         </div>);
 }
 
 export default BaseLanguage;
-
-
-// className=' flex pr-20 '
-// 

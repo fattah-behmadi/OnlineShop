@@ -5,10 +5,13 @@ import BaseButton from "components/base/BaseButton";
 import BaseSearchInput from "components/base/BaseSearchInput";
 import { BiLogOut } from "react-icons/bi";
 import { FaShoppingCart } from 'react-icons/fa'
+import { useTranslation } from "react-i18next";
 
 
 
 const TheHeader = () => {
+    const { t } = useTranslation();
+
     const inputHandler = (value) => {
         console.log(value);
     };
@@ -16,7 +19,7 @@ const TheHeader = () => {
         <div className="flex-grow  flex h-32 w-full  ">
             <BaseButton className="h-10 mx-28 my-8 p-2" >
                 <p className="text-center flex text-gray-600 ">
-                    Login | SingIn <BiLogOut size="1.5rem" className="text-black  mr-4" />
+                    {t('login')} <BiLogOut size="1.5rem" className="text-black  mr-4" />
                 </p>
             </BaseButton>
             <a href="/">

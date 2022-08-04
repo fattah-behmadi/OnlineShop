@@ -6,7 +6,7 @@ const BaseInput = ({ placeholder, className, value, ChangeValue }) => {
       <input
         className={
           className +
-          " w-[432px] rounded-md px-4 py-2 md:py-3 bg-gray-200 text-slate-800 outline-none "
+          " w-[432px] rounded-md px-4 py-2 md:py-3 text-slate-800 outline-none "
         }
         type="text"
         placeholder={placeholder}
