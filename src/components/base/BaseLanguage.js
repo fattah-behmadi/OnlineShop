@@ -13,13 +13,15 @@ const BaseLanguage = () => {
     }
     return (
 
-        <div className=' flex cursor-pointer ml-[400px] mr-4 items-center '>
+        <div className=' flex cursor-pointer  ml-[400px] mr-12 items-center '>
             <FaMoon size='1.5rem' className='ml-8' />
             <FaGlobeAmericas size="1.5rem" />
-            <select className="bg-[#eceaea] border-none text-gray-500 font-bold border-none	" onChange={changeLanguageHandler} >
+            <select className="bg-[#e2e0e0] border-none text-gray-500 font-bold border-none	" onChange={changeLanguageHandler} >
                 <option value="en" >English - En</option>
                 <option value="fa" >فارسی - Fa</option>
             </select>
+            <hr />
+
         </div>);
 }
 
