@@ -56,7 +56,7 @@ const TheBreadCrumb = () => {
     };
 
     return (
-        <div ref={slideRef} className="select-none relative mx-24 my-4  ">
+        <div ref={slideRef} className="select-none relative mx-4 my-8  ">
             <div >
                 <img src={featuredProducts[currentIndex]} alt="" className="w-11/12 pr-28 h-[500px] opacity-90 rounded-md" />
             </div>

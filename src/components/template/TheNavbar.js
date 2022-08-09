@@ -9,12 +9,11 @@ const TheNavbar = () => {
 
 
   return (
-    <div className="flex justify-center flex-row-reverse items-center ">
+    <div className="flex justify-center flex-row-reverse items-center mb-4">
       <BaseCategory />
       <BaseDiscount />
       <BaseSell />
       <BaseLanguage />
-
     </div>
   );
 };
