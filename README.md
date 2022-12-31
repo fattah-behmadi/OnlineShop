@@ -1,4 +1,9 @@
 # Getting Started with Create React App
+
+### `Icon`
+
+https://react-icons.github.io/react-icons/icons?name=bi
+
 ### `npm start`
 
 Runs the app in the development mode.\
